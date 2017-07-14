@@ -5,4 +5,5 @@
 #' @docType package
 #' @importFrom jsonlite base64_dec base64_enc
 #' @name KMS2
+#' @useDynLib KMS2
 NULL
