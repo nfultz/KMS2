@@ -1,0 +1,3 @@
+PKG_CPPFLAGS = -I.  -Iaws -Icurl -Iuuid -I/usr/local/include
+CXX_STD = CXX11
+PKG_LIBS=-L. -L/usr/local/lib/ -laws-cpp-sdk-core -laws-cpp-sdk-kms  -lcurl 

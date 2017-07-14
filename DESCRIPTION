@@ -1,0 +1,12 @@
+Package: KMS2
+Type: Package
+Title: AWS Key Management via C++
+Version: 0.1.0
+Date: 2017-07-12
+Author: Neal Fultz, Gergely Daroczi
+Maintainer: Neal Fultz <nfultz@gmail.com>
+Description: Encrypt and decrypt data and large files using Amazon's KMS infra. Now with less Java
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.11)
+LinkingTo: Rcpp
+SystemRequirements: libaws-cpp-sdk-core, libaws-cpp-sdk-kms
